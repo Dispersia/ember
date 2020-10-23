@@ -1,0 +1,10 @@
+[package]
+authors = ["Aaron Housh <dispersias@gmail.com>"]
+edition = "2018"
+name = "ember_client"
+version = "0.1.0"
+
+[dependencies]
+ember_state = {path = "../ember_state"}
+
+bevy = "0.2"
