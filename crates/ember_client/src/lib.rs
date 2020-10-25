@@ -1,7 +1,7 @@
 mod networking;
 
 use bevy::prelude::*;
-use networking::EmberClientNetworkPlugin;
+use networking::{EmberClientNetworkPlugin};
 
 pub fn run_app() {
     App::build()
