@@ -1,4 +1,7 @@
+mod networking;
+
 use bevy::prelude::*;
+use networking::EmberClientNetworkPlugin;
 
 pub fn run_app() {
     App::build()
@@ -11,5 +14,6 @@ pub fn run_app() {
         })
         .add_resource(ClearColor(Color::rgb(0., 0., 0.)))
         .add_default_plugins()
+        .add_plugin(EmberClientNetworkPlugin)
         .run();
 }

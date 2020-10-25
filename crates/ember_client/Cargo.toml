@@ -8,3 +8,5 @@ version = "0.1.0"
 ember_state = {path = "../ember_state"}
 
 bevy = "0.2"
+bevy_prototype_networking_laminar = {git = "https://github.com/Dispersia/bevy_prototype_networking_laminar", branch = "main"}
+log = "0.4"

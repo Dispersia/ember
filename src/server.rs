@@ -1,7 +1,7 @@
-//use ember_client::run_app;
+use ember_server::start_server;
 
 fn main() {
     pretty_env_logger::init();
 
-    println!("Server!");
+    start_server();
 }

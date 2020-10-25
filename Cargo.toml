@@ -1,9 +1,9 @@
 [package]
 authors = ["Aaron Housh <dispersias@gmail.com>"]
+default-run = "client"
 edition = "2018"
 name = "ember"
 version = "0.1.0"
-default-run = "client"
 
 [[bin]]
 name = "server"
@@ -16,10 +16,12 @@ path = "src/client.rs"
 [dependencies]
 ember_cli = {path = "crates/ember_cli"}
 ember_client = {path = "crates/ember_client"}
+ember_server = {path = "crates/ember_server"}
 
 pretty_env_logger = "0.4"
 
 [profile.dev]
+debug = false
 opt-level = 3
 
 [profile.release]
