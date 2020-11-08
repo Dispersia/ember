@@ -9,4 +9,5 @@ ember_state = {path = "../ember_state"}
 
 bevy = "0.2"
 bevy_prototype_networking_laminar = {git = "https://github.com/Dispersia/bevy_prototype_networking_laminar", branch = "main"}
+bevy_prototype_input_map = "0.1"
 log = "0.4"
