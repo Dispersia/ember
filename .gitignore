@@ -1,2 +1,4 @@
 /target
+/.anu
 Cargo.lock
+.ignore
